@@ -23,9 +23,5 @@ export class UserListComponent implements OnInit {
       }
       );
   }
-
-  setSelectUser(user){
-    this.currentUser = user
-  }
   
 }

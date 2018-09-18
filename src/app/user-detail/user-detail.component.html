@@ -1,10 +1,10 @@
 <h1>Detalhes do Usuário</h1>
 <div>
     <img [src]="currentUser.picture.medium">
-    <p>Nome: {{ currentUser.name.first }}</p>
-    <p>Sobrenome: {{ currentUser.name.last }}</p>
-    <p>E-mail: {{ currentUser.email }}</p>
-    <p>Telefone: {{ currentUser.phone }}</p>
+    <p> <strong>Nome:</strong> {{ currentUser.name.first }}</p>
+    <p><strong>Sobrenome:</strong> {{ currentUser.name.last }}</p>
+    <p><strong>E-mail:</strong> {{ currentUser.email }}</p>
+    <p><strong>Telefone:</strong> {{ currentUser.phone }}</p>
 </div>
 
 <input type="button" value="Voltar" [routerLink]="['/']" />
