@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    overflow: hidden;
+    background-color: #e53935;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.main-header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.main-header a.active {
+    background-color: #b71c1c;
+    color: white;
+}

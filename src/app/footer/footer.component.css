@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer {
+    background-color: #b71c1c;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px
+}
+
+.main-footer p {
+    text-align: center
+}

@@ -1,0 +1,21 @@
+<div>
+    <h1>Lista de Usuários</h1>
+    <div *ngFor="let usuario of lista_usuarios" class="users">
+        <p [routerLink]="['/detail', usuario.id.value]">
+            Nome: {{usuario.name.first}}
+        </p>
+
+        <p [routerLink]="['/detail', usuario.id.value] ">
+            Sobrenome: {{usuario.name.last}}
+        </p>
+
+        <p [routerLink]="['/detail', usuario.id.value]">
+            E-mail: {{usuario.email}}
+        </p>
+
+        <p [routerLink]="['/detail', usuario.id.value]">
+            Telefone: {{usuario.phone}}
+        </p>
+        <br>
+    </div>
+</div>
